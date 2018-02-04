@@ -162,5 +162,5 @@ if __name__=="__main__":
     buildmodel("./data", "./model")
 
     #这是一个匹配的实例
-    name, sim=facematch("./data/SCUT-FBP-169.jpg","./model")
+    name, sim=facematch("./data/4.jpg","./model")
     print(str("name:"+str( name)+" sim: "+str( sim)))
